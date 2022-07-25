@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace design_patterns.Strategy
+namespace design_patterns.Strategy.Behaviour.Fly
 {
     public class FlyWithWings : FlyBehaviour
     {

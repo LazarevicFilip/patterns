@@ -1,4 +1,6 @@
 ﻿using design_patterns.Strategy;
+using design_patterns.Strategy.Behaviour.Fly;
+using design_patterns.Strategy.Behaviour.Quack;
 using System;
 
 namespace design_patterns

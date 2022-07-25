@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace design_patterns.Strategy
+namespace design_patterns.Strategy.Behaviour.Fly
 {
-    public interface QuackBehaviour
+    public interface FlyBehaviour
     {
-        public void Quack();
+        public void Fly();
     }
 }

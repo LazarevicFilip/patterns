@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
+using design_patterns.Strategy.Behaviour.Fly;
+using design_patterns.Strategy.Behaviour.Quack;
 namespace design_patterns.Strategy
 {
     public abstract class Duck
