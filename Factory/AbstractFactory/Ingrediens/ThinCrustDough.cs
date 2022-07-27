@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Factory.AbstractFactory.Ingrediens
 {
-    public interface Pepperoni
+    public class ThinCrustDough : Dough
     {
-        public string ToString();
+        public override string ToString()
+        {
+            return "Thin Crust Dough";
+        }
     }
 }

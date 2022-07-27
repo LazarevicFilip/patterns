@@ -11,32 +11,33 @@ namespace Factory.AbstractFactory
     {
         public Cheese createCheese()
         {
-            throw new NotImplementedException();
+            return new ReggianoCheese();
         }
 
         public Clams createClams()
         {
-            throw new NotImplementedException();
+            return new FreshClams();
         }
 
         public Dough createDough()
         {
-            throw new NotImplementedException();
+            return new ThinCrustDough();
         }
 
         public Pepperoni createPepperoni()
         {
-            throw new NotImplementedException();
+            return new SlicedPepperoni();
         }
 
         public Sauce createSauce()
         {
-            throw new NotImplementedException();
+            return new MarinaraSauce();
         }
 
         public Veggies[] createVeggies()
         {
-            throw new NotImplementedException();
+            Veggies[] veggies = new Veggies[] { new Garlic() };
+            return veggies;
         }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Factory.AbstractFactory.Ingrediens
 {
-    public class Veggies
+    public interface Veggies
     {
+        public string ToString();
     }
 }

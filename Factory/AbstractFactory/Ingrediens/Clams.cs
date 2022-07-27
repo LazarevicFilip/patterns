@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Factory.AbstractFactory.Ingrediens
 {
-    public class Clams
+    public interface Clams
     {
+        public string ToString();
     }
 }
